@@ -30,7 +30,7 @@ const Skills: React.FC = () => {
     {
       title: 'Monitoring & Logging',
       icon: <Database className="h-6 w-6" />,
-      skills: ['Prometheus', 'Grafana', 'ELK Stack', 'New Relic'],
+      skills: ['Prometheus', 'Grafana', 'ELK Stack'],
       color: 'bg-red-500'
     },
     {
