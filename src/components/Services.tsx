@@ -71,10 +71,15 @@ const Services: React.FC = () => {
                   ))}
                 </div>
                 
-                <button className="w-full bg-gray-900 text-white py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center space-x-2">
-                  <span>Learn More</span>
+                <a 
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=santhosh.nuthakki.1@gmail.com&su=Inquiry about DevOps Services" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-gray-900 text-white py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center space-x-2"
+                >
+                  <span>Get Quote</span>
                   <ArrowRight className="h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           ))}
@@ -86,10 +91,15 @@ const Services: React.FC = () => {
             <p className="text-gray-600 mb-6">
               Let's discuss how I can help streamline your development processes and enhance your operational efficiency.
             </p>
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 inline-flex items-center space-x-2">
-              <span>Get Started</span>
+            <a 
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=santhosh.nuthakki.1@gmail.com&su=DevOps Consultation Request" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 inline-flex items-center space-x-2"
+            >
+              <span>Schedule Consultation</span>
               <ArrowRight className="h-5 w-5" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
