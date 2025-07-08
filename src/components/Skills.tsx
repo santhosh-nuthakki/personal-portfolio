@@ -36,7 +36,7 @@ const Skills: React.FC = () => {
     {
       title: 'Security & Compliance',
       icon: <Shield className="h-6 w-6" />,
-      skills: ['OWASP', 'SSL/TLS', 'IAM', 'Security Scanning'],
+      skills: ['SSL/TLS', 'IAM'],
       color: 'bg-indigo-500'
     }
   ];
