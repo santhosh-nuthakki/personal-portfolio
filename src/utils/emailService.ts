@@ -2,9 +2,9 @@ import emailjs from '@emailjs/browser';
 
 // EmailJS Configuration
 const EMAILJS_CONFIG = {
-  serviceId: 'service_portfolio',
-  templateId: 'template_contact',
-  publicKey: 'YOUR_PUBLIC_KEY'
+  serviceId: 'service_soocthj',
+  templateId: 'template_piysa57',
+  publicKey: 'uFDzZ-XqgXSU9KAS5'
 };
 
 export interface ContactFormData {

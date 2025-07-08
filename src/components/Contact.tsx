@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, Linkedin, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react';
-import emailjs from '@emailjs/browser';
+import { sendContactEmail, initEmailJS } from '../utils/emailService';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -28,25 +28,8 @@ const Contact: React.FC = () => {
     setError('');
 
     try {
-      // EmailJS configuration
-      const serviceId = 'service_portfolio'; // You'll need to replace this
-      const templateId = 'template_contact'; // You'll need to replace this
-      const publicKey = 'YOUR_PUBLIC_KEY'; // You'll need to replace this
-
-      const templateParams = {
-        from_name: formData.name,
-        from_email: formData.email,
-        subject: formData.subject,
-        message: formData.message,
-        to_email: 'santhosh.nuthakki.1@gmail.com'
-      };
-
-      // For now, we'll simulate the email sending since EmailJS needs to be configured
-      // Replace this with actual EmailJS call once configured
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      // Uncomment this when EmailJS is configured:
-      // await emailjs.send(serviceId, templateId, templateParams, publicKey);
+      // Send email using EmailJS
+      await sendContactEmail(formData);
       
       setIsSubmitting(false);
       setIsSubmitted(true);
@@ -59,7 +42,7 @@ const Contact: React.FC = () => {
 
     } catch (error) {
       console.error('Error sending email:', error);
-      setError('Failed to send message. Please try again or contact me directly.');
+      setError('Failed to send message. Please try again or contact me directly at santhosh.nuthakki.1@gmail.com');
       setIsSubmitting(false);
     }
   };
