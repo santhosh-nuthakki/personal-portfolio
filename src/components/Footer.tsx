@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               <a href="https://linkedin.com/in/santhosh-nuthakki-a4343121b" className="text-gray-300 hover:text-white transition-colors duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
+              <a href="https://github.com/SanthoshNuthakki" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
                 <Github className="h-5 w-5" />
               </a>
             </div>

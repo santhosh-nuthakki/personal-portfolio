@@ -82,14 +82,14 @@ const Portfolio: React.FC = () => {
               Explore my code repositories and contributions to the DevOps community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 inline-flex items-center space-x-2">
+              <a href="https://github.com/SanthoshNuthakki" target="_blank" rel="noopener noreferrer" className="bg-white text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 inline-flex items-center space-x-2">
                 <Github className="h-5 w-5" />
                 <span>View GitHub Profile</span>
-              </button>
-              <button className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-gray-900 transition-colors duration-200 inline-flex items-center space-x-2">
+              </a>
+              <a href="https://github.com/SanthoshNuthakki?tab=repositories" target="_blank" rel="noopener noreferrer" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-gray-900 transition-colors duration-200 inline-flex items-center space-x-2">
                 <ExternalLink className="h-5 w-5" />
                 <span>View Projects</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

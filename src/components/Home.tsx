@@ -79,7 +79,7 @@ const Home: React.FC = () => {
               <a href="https://linkedin.com/in/santhosh-nuthakki-a4343121b" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 transition-colors duration-200">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-200">
+              <a href="https://github.com/SanthoshNuthakki" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 transition-colors duration-200">
                 <Github className="h-6 w-6" />
               </a>
             </div>
