@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
     {
       title: 'CI/CD',
       icon: <Settings className="h-6 w-6" />,
-      skills: ['Jenkins', 'GitLab CI', 'GitHub Actions', 'Azure DevOps'],
+      skills: ['Jenkins', 'GitHub Actions', 'Azure DevOps'],
       color: 'bg-blue-500'
     },
     {
