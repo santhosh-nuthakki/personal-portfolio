@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
 
   const coreSkills = [
     { name: 'CI/CD', level: 90 },
-    { name: 'Docker', level: 90 },
+    { name: 'Docker', level: 80 },
     { name: 'Terraform', level: 80 },
     { name: 'AWS', level: 90 },
     { name: 'Shell Scripting', level: 90 }
