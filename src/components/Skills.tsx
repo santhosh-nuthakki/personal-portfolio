@@ -46,7 +46,7 @@ const Skills: React.FC = () => {
     { name: 'Docker', level: 90 },
     { name: 'Terraform', level: 80 },
     { name: 'AWS', level: 90 },
-    { name: 'Shell Scripting', level: 92 }
+    { name: 'Shell Scripting', level: 90 }
   ];
 
   return (
