@@ -41,7 +41,7 @@ const Portfolio: React.FC = () => {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">AIOps Portfolio Coming Soon</h3>
             <p className="text-gray-600 text-lg mb-6">
-              I'm currently working on AIOps (Artificial Intelligence for IT Operations) projects that combine 
+              I'm currently working on AIOps (Artificial Intelligence for Operations) projects that combine 
               machine learning with DevOps practices. Check back soon for detailed project showcases including 
               AI model implementations, automation strategies, and performance metrics.
             </p>
