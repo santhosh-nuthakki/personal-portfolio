@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
     {
       title: 'Infrastructure as Code',
       icon: <Code className="h-6 w-6" />,
-      skills: ['Terraform', 'Ansible', 'CloudFormation', 'Pulumi'],
+      skills: ['Terraform', 'Ansible', 'CloudFormation'],
       color: 'bg-orange-500'
     },
     {
