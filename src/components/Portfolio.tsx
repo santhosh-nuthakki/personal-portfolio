@@ -4,19 +4,22 @@ import { Folder, ExternalLink, Github, Clock } from 'lucide-react';
 const Portfolio: React.FC = () => {
   const upcomingProjects = [
     {
-      title: 'Multi-Cloud Deployment Pipeline',
-      description: 'A comprehensive CI/CD pipeline that supports deployment across AWS, Azure, and GCP',
-      technologies: ['Terraform', 'Jenkins', 'Docker', 'Kubernetes']
+      title: 'CI/CD Pipeline Optimizer using AI',
+      description: 'Train a model to analyze pipeline data and suggest time-saving optimizations or predict build failures.',
+      technologies: ['Jenkins/GitHub Actions', 'Python', 'Pandas', 'ML Classification'],
+      skills: 'ML in CI/CD, pipeline efficiency, automation'
     },
     {
-      title: 'Infrastructure Monitoring Dashboard',
-      description: 'Real-time monitoring solution with custom metrics and automated alerting',
-      technologies: ['Prometheus', 'Grafana', 'Python', 'AWS CloudWatch']
+      title: 'Self-Healing Infrastructure with AI',
+      description: 'Create a basic Kubernetes or Docker setup that uses AI to detect and restart failed containers or pods automatically.',
+      technologies: ['Kubernetes', 'Prometheus', 'Python', 'TensorFlow'],
+      skills: 'MLOps, container orchestration, monitoring'
     },
     {
-      title: 'Automated Security Scanner',
-      description: 'DevSecOps tool for automated security scanning in CI/CD pipelines',
-      technologies: ['OWASP ZAP', 'SonarQube', 'Docker', 'Shell Scripts']
+      title: 'Predictive Auto-Scaling',
+      description: 'Train a model to predict traffic/load and automatically scale cloud resources accordingly.',
+      technologies: ['AWS/GCP', 'Python', 'Prophet', 'Terraform'],
+      skills: 'Cloud DevOps, forecasting, infrastructure as code'
     }
   ];
 
@@ -36,11 +39,11 @@ const Portfolio: React.FC = () => {
             <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
               <Clock className="h-10 w-10 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Portfolio Coming Soon</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">AIOps Portfolio Coming Soon</h3>
             <p className="text-gray-600 text-lg mb-6">
-              I'm currently building a comprehensive portfolio of DevOps case studies and implementations. 
-              Check back soon for detailed project showcases including architecture diagrams, implementation strategies, 
-              and performance metrics.
+              I'm currently working on AIOps (Artificial Intelligence for IT Operations) projects that combine 
+              machine learning with DevOps practices. Check back soon for detailed project showcases including 
+              AI model implementations, automation strategies, and performance metrics.
             </p>
             <div className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg">
               <span className="text-sm font-medium">Expected Launch: Q4 2025</span>
@@ -49,7 +52,7 @@ const Portfolio: React.FC = () => {
 
           {/* Upcoming Projects Preview */}
           <div className="mb-12">
-            <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">Upcoming Project Showcases</h3>
+            <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">Upcoming AIOps Project Showcases</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {upcomingProjects.map((project, index) => (
                 <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
@@ -67,6 +70,10 @@ const Portfolio: React.FC = () => {
                       </span>
                     ))}
                   </div>
+                  <div className="mt-4 pt-4 border-t border-gray-200">
+                    <p className="text-xs text-gray-500 font-medium">Skills Showcased:</p>
+                    <p className="text-xs text-gray-600 mt-1">{project.skills}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -79,7 +86,7 @@ const Portfolio: React.FC = () => {
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">Open Source Contributions</h3>
             <p className="text-gray-300 mb-6">
-              Explore my code repositories and contributions to the DevOps community.
+              Explore my code repositories and contributions to the DevOps and AIOps community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://github.com/SanthoshNuthakki" target="_blank" rel="noopener noreferrer" className="bg-white text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 inline-flex items-center space-x-2">
