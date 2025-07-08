@@ -74,7 +74,7 @@ const Home: React.FC = () => {
             </div>
 
             <div className="flex space-x-6">
-              <a href="mailto:santhosh.nuthakki.1@gmail.com" className="text-gray-500 hover:text-blue-600 transition-colors duration-200">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=santhosh.nuthakki.1@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 transition-colors duration-200">
                 <Mail className="h-6 w-6" />
               </a>
               <a href="https://linkedin.com/in/santhosh-nuthakki-a4343121b" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 transition-colors duration-200">
