@@ -40,25 +40,29 @@ const Contact: React.FC = () => {
       icon: <Mail className="h-6 w-6" />,
       label: 'Email',
       value: 'santhosh.nuthakki.1@gmail.com',
-      href: 'mailto:santhosh.nuthakki.1@gmail.com'
+      href: 'https://mail.google.com/mail/?view=cm&fs=1&to=santhosh.nuthakki.1@gmail.com',
+      clickable: true
     },
     {
       icon: <Phone className="h-6 w-6" />,
       label: 'Phone',
       value: '+91 9666805477',
-      href: 'tel:+919666805477'
+      href: '#',
+      clickable: false
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
       label: 'LinkedIn',
       value: 'santhosh-nuthakki-a4343121b',
-      href: 'https://linkedin.com/in/santhosh-nuthakki-a4343121b'
+      href: 'https://linkedin.com/in/santhosh-nuthakki-a4343121b',
+      clickable: true
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       label: 'Location',
       value: 'Hyderabad, India',
-      href: '#'
+      href: '#',
+      clickable: false
     }
   ];
 
@@ -84,12 +88,20 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-600">{item.label}</p>
-                    <a
-                      href={item.href}
-                      className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors duration-200"
-                    >
-                      {item.value}
-                    </a>
+                    {item.clickable ? (
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors duration-200 cursor-pointer"
+                      >
+                        {item.value}
+                      </a>
+                    ) : (
+                      <span className="text-lg font-medium text-gray-900">
+                        {item.value}
+                      </span>
+                    )}
                   </div>
                 </div>
               ))}
