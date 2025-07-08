@@ -28,7 +28,7 @@ const About: React.FC = () => {
               {/* DevOps Badge */}
               <div className="absolute -top-3 -right-3 w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
                 <div className="text-white text-xs font-bold text-center leading-tight">
-                  <div>3.5+</div>
+                  <div>3+</div>
                   <div>YRS</div>
                 </div>
               </div>
