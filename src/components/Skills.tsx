@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
     {
       title: 'Cloud Platforms',
       icon: <Cloud className="h-6 w-6" />,
-      skills: ['AWS', 'Azure', 'Google Cloud', 'Digital Ocean'],
+      skills: ['AWS', 'Azure'],
       color: 'bg-green-500'
     },
     {
