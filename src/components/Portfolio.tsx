@@ -43,7 +43,7 @@ const Portfolio: React.FC = () => {
               and performance metrics.
             </p>
             <div className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg">
-              <span className="text-sm font-medium">Expected Launch: Q2 2024</span>
+              <span className="text-sm font-medium">Expected Launch: Q4 2025</span>
             </div>
           </div>
 
