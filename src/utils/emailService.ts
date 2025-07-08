@@ -22,7 +22,8 @@ export const sendContactEmail = async (formData: ContactFormData): Promise<void>
       subject: formData.subject,
       message: formData.message,
       to_email: 'santhosh.nuthakki.1@gmail.com',
-      reply_to: formData.email
+      reply_to: formData.email,
+      email_subject: formData.subject // Additional field for subject
     };
 
     await emailjs.send(
