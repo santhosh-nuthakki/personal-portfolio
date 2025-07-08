@@ -16,9 +16,9 @@ const Skills: React.FC = () => {
       color: 'bg-green-500'
     },
     {
-      title: 'Containerization',
+      title: 'Containerization and orchestration',
       icon: <Server className="h-6 w-6" />,
-      skills: ['Docker', 'Kubernetes', 'Docker Compose', 'Podman'],
+      skills: ['Docker', 'Kubernetes', 'Docker Compose'],
       color: 'bg-purple-500'
     },
     {
