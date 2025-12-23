@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-300 flex items-center justify-center space-x-2">
-            <span>&copy; 2025 Santhosh Nuthakki. Built with</span>
+            <span>&copy; 2026 Santhosh Nuthakki. Built with</span>
             <Heart className="h-4 w-4 text-red-500" />
             <span>and React</span>
           </p>

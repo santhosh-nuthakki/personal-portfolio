@@ -81,7 +81,7 @@ const About: React.FC = () => {
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="bg-green-50 rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-green-600">10+</div>
+                <div className="text-2xl font-bold text-green-600">15+</div>
                 <div className="text-sm text-gray-600">Projects Deployed</div>
               </div>
             </div>
