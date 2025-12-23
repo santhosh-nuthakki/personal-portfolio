@@ -63,7 +63,7 @@ const Home: React.FC = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
               <a 
-                href="https://docs.google.com/document/d/1wKxJu8zry1Iqeq1zSsOrtYLcdMQ-KxVv/edit#heading=h.vtfexgv8p3bc" 
+                href="https://docs.google.com/document/d/10F0xBpx3XdNTlB-SjObsi_24cd2JRwEm/edit#heading=h.44h4oqmmv0rp" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
