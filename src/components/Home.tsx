@@ -40,7 +40,7 @@ const Home: React.FC = () => {
                 </span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-700">
-                DevOps Engineer | Software Engineer
+                DevOps Engineer | Software Engineer-SD
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl">
                 Building scalable and automated DevOps solutions for modern software teams.

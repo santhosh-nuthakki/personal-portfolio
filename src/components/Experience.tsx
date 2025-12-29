@@ -29,7 +29,7 @@ const Experience: React.FC = () => {
                   <Building className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white">Software Engineer</h3>
+                  <h3 className="text-2xl font-bold text-white">Software Engineer-SD</h3>
                   <p className="text-blue-100 text-lg">ValueLabs</p>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Experience: React.FC = () => {
 
               <div className="mb-6">
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  As a DevOps-focused Software Engineer at ValueLabs, I specialize in building and maintaining 
+                  As a DevOps-focused Software Engineer-SD at ValueLabs, I specialize in building and maintaining 
                   robust CI/CD pipelines, managing cloud infrastructure, and implementing automation solutions 
                   that enhance development productivity and operational efficiency.
                 </p>
